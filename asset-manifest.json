@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/lektorium-blog/static/css/main.ef95225d.css",
-    "main.js": "/lektorium-blog/static/js/main.a70b3f09.js",
+    "main.css": "/lektorium-blog/static/css/main.44365b07.css",
+    "main.js": "/lektorium-blog/static/js/main.254de66e.js",
     "index.html": "/lektorium-blog/index.html",
-    "main.ef95225d.css.map": "/lektorium-blog/static/css/main.ef95225d.css.map",
-    "main.a70b3f09.js.map": "/lektorium-blog/static/js/main.a70b3f09.js.map"
+    "main.44365b07.css.map": "/lektorium-blog/static/css/main.44365b07.css.map",
+    "main.254de66e.js.map": "/lektorium-blog/static/js/main.254de66e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef95225d.css",
-    "static/js/main.a70b3f09.js"
+    "static/css/main.44365b07.css",
+    "static/js/main.254de66e.js"
   ]
 }
