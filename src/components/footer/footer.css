@@ -1,0 +1,9 @@
+.footer__logo {
+    width: 150px;
+    display: block;
+}
+
+.footer__mail-link {
+    /*text-decoration: none;*/
+    color: #0F1A57;
+}

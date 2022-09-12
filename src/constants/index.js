@@ -1,0 +1,1 @@
+import {POSTS_PER_PAGE} from './constants';
