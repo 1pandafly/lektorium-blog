@@ -19,7 +19,7 @@ const PostListItem = (props: {
             .then((res) => {
                 setAuthor(`${res.data.firstname} ${res.data.lastname}`);
             });
-    }, []);
+    }, [props.userId]);
 
     return (
         <Box sx={{

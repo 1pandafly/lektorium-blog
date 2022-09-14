@@ -9,7 +9,7 @@ const Pagination = (props: { pages: number, currentPage: number }) => {
         const buttonClass = i === props.currentPage ? "pagination__button pagination__button-active" : "pagination__button";
 
         pagesButtons.push(
-            <Box sx={{
+            <Box key={i} sx={{
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
@@ -19,7 +19,7 @@ const Pagination = (props: { pages: number, currentPage: number }) => {
                 width: '25px',
                 height: '25px',
             }} className={buttonClass}>
-                <Link key={i} to={`/page/${i}`}>{i}</Link>
+                <Link to={`/page/${i}`}>{i}</Link>
             </Box>
         );
     }
